@@ -4,7 +4,7 @@
   <author href="http://phonegap.com" email="ahsan.magnito@gmail.com">Ahsan Ullah</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
-  <uses-permission android:name="android.permission.INTERNET" />
+  <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
   <!-- <preference name="phonegap-version" value="6.3.0"/> -->
   <preference name="phonegap-version" value="cli-6.3.0" />
   <preference name="orientation" value="default"/>
@@ -67,5 +67,5 @@
   <access origin="*"/>
   <access origin="https://magnitolab.com" subdomains="true" />
   <access origin="http://*" />
-<access origin="https://*" />
+  <access origin="https://*" />
 </widget>
