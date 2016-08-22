@@ -1,7 +1,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.sticker" version="1.0.0">
   <name>Sticker</name>
   <description>Hello World sample application that responds to the deviceready event.</description>
-  <author href="http://phonegap.com" email="ahsan.magnito@gmail.com">Ahsan Ullah</author>
+  <author href="http://magnitolab.com" email="ahsan.magnito@gmail.com">Ahsan Ullah</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
   <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
