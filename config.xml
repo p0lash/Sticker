@@ -68,12 +68,12 @@
   <access origin="https://magnitolab.com" subdomains="true" />
   <access origin="http://*" />
   <access origin="https://*" />
-  <!-- Allow links to example.com -->
-  <allow-navigation href="http://example.com/*" />
+  <!-- Allow links to magnitolab.com -->
+  <allow-navigation href="http://magnitolab.com/*" />
 
   <!-- Wildcards are allowed for the protocol, as a prefix
        to the host, or as a suffix to the path -->
-  <allow-navigation href="*://*.example.com/*" />
+  <allow-navigation href="*://*.magnitolab.com/*" />
 
   <!-- A wildcard can be used to whitelist the entire network,
        over HTTP and HTTPS.
@@ -88,12 +88,12 @@
   <allow-intent href="http://*/*" />
   <allow-intent href="https://*/*" />
 
-  <!-- Allow links to example.com to open in a browser -->
-  <allow-intent href="http://example.com/*" />
+  <!-- Allow links to magnitolab.com to open in a browser -->
+  <allow-intent href="http://magnitolab.com/*" />
 
   <!-- Wildcards are allowed for the protocol, as a prefix
        to the host, or as a suffix to the path -->
-  <allow-intent href="*://*.example.com/*" />
+  <allow-intent href="*://*.magnitolab.com/*" />
 
   <!-- Allow SMS links to open messaging app -->
   <allow-intent href="sms:*" />
