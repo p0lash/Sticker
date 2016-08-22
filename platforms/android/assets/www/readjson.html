@@ -1,6 +1,8 @@
 <html>
 <head>
  <link rel="stylesheet" type="text/css" href="css/ionic.css">
+ <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/git/jquery.mobile-git.css">
+ <script type="text/javascript" src="http://code.jquery.com/mobile/git/jquery.mobile-git.js"></script>
  <script type="text/javascript" src="js/jquery.js"></script>
  <script type="text/javascript">
  $(document).ready(function()
@@ -13,7 +15,7 @@
  var title=field.title;
  var duration=field.duration;
  var price=field.price;
- $("#listview").append("<a class='item' href='form.html?id="+id+"&title="+title+"&duration="+duration+"&price="+price+"'><span class='item-note'>$"+price+"</span><h2>"+ title + " </h2><p>"+ duration +"</p></a>");
+ $("#listview").append("<a class='item' href='form.html?id="+id+"&title="+title+"&duration="+duration+"&price="+price+"'><span class='item-note'><img src='"+price+"'></span><h2>"+ title + " </h2><p>"+ duration +"</p></a>");
  });
  });
  });
@@ -26,6 +28,7 @@
  </div><br/><br/>
  <ul class="list" id="listview">
  </ul>
+ 
  <!-- <div><iframe src="http://magnitolab.com/json.php" width="600" height="600"></iframe></div> -->
 </body>
 </html>
